@@ -57,6 +57,14 @@ const allowedPets = 2;
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
+let result;
+if (adventurous) {
+  result = 'Adventures are great!';
+} else {
+  result = 'How about we stay home?';
+}
+//end of conditional - print result
+console.log( result );
 
 
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
@@ -64,6 +72,11 @@ const allowedPets = 2;
 //      if luckyNumber is 2 and adventurous is true,
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
+let diceRoll = "Try again later.";
+if (luckyNumber === 2 && adventurous){
+  diceRoll = "Roll the dice!";
+}
+console.log(diceRoll)
 
 // 14 - Create a variable called `petStatus`. 
 //      Write a conditional that covers the following:
