@@ -104,6 +104,20 @@ console.log(petStatus)
 //      assigns the highest value to `mostPets`. There's several possibilities --
 //      be sure to think through all the scenarios. 
 //      console.log `mostPets` after the conditional has run.
+let mostPets;
+let petComparison = pets - friendsPets;
+if (petComparison > 0){
+  mostPets = "I have " +  petComparison + " more pet(s) than my friend.";
+} else if (petComparison < 0){
+  mostPets = "My friend has " + Math.abs(petComparison) + " more pet(s) than I have.";
+}
+else {
+  mostPets = "My friend and I have the same number of pets, but mine are still cooler.";
+}
+console.log(mostPets)
+
+
+
 
 // 16 - Make a variable called `luckyResult`
 //      Write a *switch* statement that sets `luckyResult` to:
